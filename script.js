@@ -28,7 +28,9 @@ $(document).ready(function() {
     }, 3000) 
     $("#search_btn").on("click", function(e) {
         e.preventDefault();
+        let spinner = '<div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>';
         let searchItem = $("#search").val();
+        $('#search_btn').html(spinner);
         if(searchItem) {
             $.ajax({
                 url: 'getDonor.php',

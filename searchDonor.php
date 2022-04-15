@@ -9,7 +9,7 @@
                 <input type="submit" id="search_btn" value="Search" class="btn btn-primary btn-sm">
             </div>
         </form>
-        <div class="table-responsive">
+        <div class="table-responsive-xxl">
             <table id='search-data-row' style="text-transform: capitalize;" class="table table-light table-hover">
                 <tr>
                     <th>Full Name</th>
@@ -37,6 +37,8 @@
                                 $ban = "<td>
                                 <a href=delete_donor.php?uid={$row['uid']} class='btn btn-danger'><i class='fa-solid fa-trash-can'></i></a>
                                 </td>";
+                            } else {
+                                $ban = "";
                             }
                             echo "<tr>
                                 <td>{$row['fullName']}</td>

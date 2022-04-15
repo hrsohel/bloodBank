@@ -2,21 +2,20 @@
     include('components/header.php');
 ?>
 <section class="container">
-      <div class="slide-container my-3">
-        <div class="image-container">
-            <i class="fa-solid fa-circle-left prev"></i>
-            <img class="fade" src="images\IMG-20220315-WA0000.jpg" alt="">
-            <i class="fa-solid fa-circle-right next"></i>
-            <div class="dots">
-                <span class="" data-index="1" data-toggle="images\IMG-20220315-WA0000.jpg"></span>
-                <span class="" data-index="2" data-toggle="images\IMG-20220315-WA0001.jpg"></span>
-                <span class="" data-index="3" data-toggle="images\IMG-20220315-WA0002.jpg"></span>
-                <span class="" data-index="4" data-toggle="images\IMG-20220315-WA0003.jpg"></span>
-                <span class="" data-index="5" data-toggle="images\IMG-20220315-WA0004.jpg"></span>
-            </div>
-        </div>
+<div class="slide-container my-3">
+  <div class="image-container">
+    <i class="fa-solid fa-circle-left prev"></i>
+    <img src="images\IMG-20220315-WA0000.jpg" alt="">
+    <i class="fa-solid fa-circle-right next"></i>
+    <div class="dots">
+      <span class="" data-index="1" data-toggle="images\IMG-20220315-WA0000.jpg"></span>
+      <span class="" data-index="2" data-toggle="images\IMG-20220315-WA0001.jpg"></span>
+      <span class="" data-index="3" data-toggle="images\IMG-20220315-WA0002.jpg"></span>
+      <span class="" data-index="4" data-toggle="images\IMG-20220315-WA0003.jpg"></span>
+      <span class="" data-index="5" data-toggle="images\IMG-20220315-WA0004.jpg"></span>
     </div>
-    </div>
+  </div>
+</div>
 <div class="row my-3">
     <div class="col-md-6">
         <h1>BLOOD GROUPS</h1>
